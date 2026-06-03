@@ -1,0 +1,8 @@
+REMARK SBP Structure-Based Pharmacophore (6X4H)
+REMARK A=Acceptor D=Donor H=Hydrophobic P=PosIonizable N=NegIonizable
+ATOM      1 H    PH4 A   1     -35.433  34.460  18.623  1.00  0.00          H
+ATOM      2 H    PH4 A   1     -29.947  41.640  13.527  1.00  0.00          H
+ATOM      3 A    PH4 A   1     -34.180  41.015  13.175  1.00  0.00          A
+ATOM      4 A    PH4 A   1     -33.660  34.220  18.010  1.00  0.00          A
+ATOM      5 D    PH4 A   1     -32.290  39.670  15.050  1.00  0.00          D
+END

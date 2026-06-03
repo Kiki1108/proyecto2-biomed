@@ -1,0 +1,21 @@
+REMARK LBP Ligand-Based Pharmacophore (2ET)
+REMARK A=Acceptor D=Donor H=Hydrophobic P=PosIonizable N=NegIonizable
+ATOM      1 D    PH4 A   1     -33.842  40.738  12.562  1.00  0.00          D
+ATOM      2 D    PH4 A   1     -32.435  38.349  14.687  1.00  0.00          D
+ATOM      3 D    PH4 A   1     -30.137  36.004  15.868  1.00  0.00          D
+ATOM      4 A    PH4 A   1     -32.459  39.116  11.899  1.00  0.00          A
+ATOM      5 A    PH4 A   1     -33.842  40.738  12.562  1.00  0.00          A
+ATOM      6 A    PH4 A   1     -30.137  36.004  15.868  1.00  0.00          A
+ATOM      7 A    PH4 A   1     -36.822  37.746  17.646  1.00  0.00          A
+ATOM      8 A    PH4 A   1     -33.066  39.887  12.422  1.00  0.00          A
+ATOM      9 D    PH4 A   1     -32.435  38.349  14.687  1.00  0.00          D
+ATOM     10 H    PH4 A   1     -32.912  39.858  12.885  1.00  0.00          H
+ATOM     11 H    PH4 A   1     -32.631  35.331  16.835  1.00  0.00          H
+ATOM     12 H    PH4 A   1     -34.926  35.892  17.433  1.00  0.00          H
+ATOM     13 H    PH4 A   1     -32.394  36.690  16.476  1.00  0.00          H
+ATOM     14 H    PH4 A   1     -33.899  34.919  17.320  1.00  0.00          H
+ATOM     15 H    PH4 A   1     -35.237  34.550  17.809  1.00  0.00          H
+ATOM     16 H    PH4 A   1     -31.023  41.930  13.992  1.00  0.00          H
+ATOM     17 H    PH4 A   1     -31.069  40.441  14.400  1.00  0.00          H
+ATOM     18 H    PH4 A   1     -32.631  35.331  16.835  1.00  0.00          H
+END

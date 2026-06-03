@@ -1,0 +1,7 @@
+REMARK LBP Ligand-Based Pharmacophore (Q9Z)
+REMARK A=Acceptor D=Donor H=Hydrophobic P=PosIonizable N=NegIonizable
+ATOM      1 A    PH4 A   1       4.836   0.643  -1.213  1.00  0.00          A
+ATOM      2 H    PH4 A   1      -1.819  -0.385  -0.164  1.00  0.00          H
+ATOM      3 H    PH4 A   1      -0.395   0.185  -0.295  1.00  0.00          H
+ATOM      4 H    PH4 A   1      -2.321  -0.098  -0.063  1.00  0.00          H
+END

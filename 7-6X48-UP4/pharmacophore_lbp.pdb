@@ -1,0 +1,18 @@
+REMARK LBP Ligand-Based Pharmacophore (UP4)
+REMARK A=Acceptor D=Donor H=Hydrophobic P=PosIonizable N=NegIonizable
+ATOM      1 D    PH4 A   1     -32.734  38.675  15.124  1.00  0.00          D
+ATOM      2 D    PH4 A   1     -34.765  39.003  13.603  1.00  0.00          D
+ATOM      3 A    PH4 A   1     -31.238  39.351  16.718  1.00  0.00          A
+ATOM      4 A    PH4 A   1     -34.172  40.947  12.694  1.00  0.00          A
+ATOM      5 A    PH4 A   1     -34.765  39.003  13.603  1.00  0.00          A
+ATOM      6 A    PH4 A   1     -34.279  39.996  13.252  1.00  0.00          A
+ATOM      7 H    PH4 A   1     -33.868  39.973  13.520  1.00  0.00          H
+ATOM      8 H    PH4 A   1     -32.522  36.135  17.847  1.00  0.00          H
+ATOM      9 H    PH4 A   1     -32.299  37.281  17.075  1.00  0.00          H
+ATOM     10 H    PH4 A   1     -32.979  34.970  17.246  1.00  0.00          H
+ATOM     11 H    PH4 A   1     -32.290  36.160  19.217  1.00  0.00          H
+ATOM     12 H    PH4 A   1     -29.652  41.327  12.125  1.00  0.00          H
+ATOM     13 H    PH4 A   1     -31.375  39.867  13.446  1.00  0.00          H
+ATOM     14 H    PH4 A   1     -30.941  41.269  12.990  1.00  0.00          H
+ATOM     15 H    PH4 A   1     -32.522  36.135  17.847  1.00  0.00          H
+END

@@ -1,0 +1,6 @@
+REMARK SBP Structure-Based Pharmacophore (5MRI)
+REMARK A=Acceptor D=Donor H=Hydrophobic P=PosIonizable N=NegIonizable
+ATOM      1 H    PH4 A   1      -9.982 -80.008  31.032  1.00  0.00          H
+ATOM      2 D    PH4 A   1     -10.663 -78.773  34.550  1.00  0.00          D
+ATOM      3 A    PH4 A   1     -10.490 -77.660  36.510  1.00  0.00          A
+END

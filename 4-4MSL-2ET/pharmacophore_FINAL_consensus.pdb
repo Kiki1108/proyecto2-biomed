@@ -1,0 +1,29 @@
+REMARK  FARMACOFORO CONSENSO FINAL — Proteasa VIH-1 / 2ET (4MSL)
+REMARK  Pipeline: SBP (PLIP) + LBP (RDKit) + RBP (pH 7.4 corregido)
+REMARK  Radio clustering: 3.5 A   pH referencia: 7.4
+REMARK  Consenso con complementariedad fisica receptor<->ligando:
+REMARK    DONOR-ligando     <-> ACCEPTOR-receptor
+REMARK    ACCEPTOR-ligando  <-> DONOR-receptor
+REMARK    HYDROPHOBIC       <-> HYDROPHOBIC
+REMARK    POS_IONIZABLE     <-> NEG_IONIZABLE
+REMARK  Atom names: A=Acceptor D=Donor H=Hydrophobic P=PosIon N=NegIon
+REMARK  Occupancy: 0.33=un modelo  0.67=dos modelos  1.00=triple consenso
+REMARK  B-factor:  33.3=un modelo  66.7=dos modelos  100.0=triple consenso
+REMARK  PyMOL: spectrum b, blue_red  ->  rojo=triple consenso (mas confiable)
+ATOM      1  A   PH4 A   1     -33.393  40.048  12.551  1.00 100.0           A
+REMARK  [  1] LIG=ACCEPTOR       REC_complemento=DONOR (d=3.30Å)                     modelos=LBP+RBP+SBP
+ATOM      2  D   PH4 A   2     -32.720  39.074  14.149  1.00 100.0           D
+REMARK  [  2] LIG=DONOR          REC_complemento=ACCEPTOR (d=2.75Å)                  modelos=LBP+RBP+SBP
+ATOM      3  D   PH4 A   2     -30.137  36.004  15.868  0.67  66.7           D
+REMARK  [  3] LIG=DONOR          REC_complemento=ACCEPTOR (d=3.15Å)                  modelos=LBP+RBP
+ATOM      4  H   PH4 A   3     -33.705  35.484  17.103  0.67  66.7           H
+REMARK  [  4] LIG=HYDROPHOBIC    REC_complemento=—                                   modelos=LBP+SBP
+ATOM      5  H   PH4 A   3     -30.431  41.019  14.167  0.67  66.7           H
+REMARK  [  5] LIG=HYDROPHOBIC    REC_complemento=—                                   modelos=LBP+SBP
+ATOM      6  A   PH4 A   1     -30.137  36.004  15.868  0.33  33.3           A
+REMARK  [  6] LIG=ACCEPTOR       REC_complemento=—                                   modelos=LBP
+ATOM      7  A   PH4 A   1     -36.822  37.746  17.646  0.33  33.3           A
+REMARK  [  7] LIG=ACCEPTOR       REC_complemento=—                                   modelos=LBP
+ATOM      8  H   PH4 A   3     -32.912  39.858  12.885  0.33  33.3           H
+REMARK  [  8] LIG=HYDROPHOBIC    REC_complemento=—                                   modelos=LBP
+END
