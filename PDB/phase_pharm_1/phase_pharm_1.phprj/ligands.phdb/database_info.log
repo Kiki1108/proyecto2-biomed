@@ -1,0 +1,67 @@
+********************************************************************************
+
+phase_database: Thu Jun  4 11:39:44 2026
+
+Database = /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb
+Task = import
+Job name = phase_pharm_1_import
+Options:
+-NOJOBID
+-fd phase_pharm_1.def
+-fmt xyz
+-i phase_pharm_1-out.maegz
+-multi
+-new
+-stereo
+-verbose
+
+Adding molecules to database . . .
+
+LIGAND_NAME = block_1/mol_1  # Title = "6x48"  Confs = 33
+LIGAND_NAME = block_1/mol_2  # Title = "6x48"  Confs = 27
+LIGAND_NAME = block_1/mol_3  # Title = "5mri"  Confs = 38
+LIGAND_NAME = block_1/mol_4  # Title = "5mri"  Confs = 35
+LIGAND_NAME = block_1/mol_5  # Title = "6x4h"  Confs = 50
+LIGAND_NAME = block_1/mol_6  # Title = "4msl"  Confs = 50
+LIGAND_NAME = block_1/mol_7  # Title = "4msl"  Confs = 50
+LIGAND_NAME = block_1/mol_8  # Title = "4msl"  Confs = 42
+LIGAND_NAME = block_1/mol_9  # Title = "6x3l"  Confs = 23
+LIGAND_NAME = block_1/mol_10  # Title = "6x3l"  Confs = 23
+LIGAND_NAME = block_1/mol_11  # Title = "6x3l"  Confs = 39
+LIGAND_NAME = block_1/mol_12  # Title = "5mrh"  Confs = 21
+LIGAND_NAME = block_1/mol_13  # Title = "4n7e"  Confs = 39
+LIGAND_NAME = block_1/mol_14  # Title = "4n7e"  Confs = 25
+
+A total of 14 records added
+Total number of records stored = 14
+
+********************************************************************************
+
+phase_database: Thu Jun  4 11:39:49 2026
+
+Database = /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb
+Task = revise
+Job name = phase_pharm_1_sites
+Options:
+-NOJOBID
+-role parent
+-setup
+-sites
+
+Setup for parent job complete
+
+********************************************************************************
+
+phase_database: Thu Jun  4 11:39:51 2026
+
+Database = /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb
+Task = revise
+Job name = phase_pharm_1_sites
+Options:
+-cleanup
+-role parent
+
+Revision of 14 out of 14 records completed
+Average number of conformers per revised record = 35.36
+Total number of records stored = 14
+

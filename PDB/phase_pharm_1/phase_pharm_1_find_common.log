@@ -1,0 +1,745 @@
+Driver script for phase_find_common job phase_pharm_1_find_common
+Current time: Thu Jun  4 11:39:54 2026
+Host name: kiki.localdomain
+Number of CPUs requested = 1
+SCHRODINGER=/home/kiki/software/schrondiger
+SCHRODINGER_JOBID=kiki-0-6a219c49
+MMSHARE_EXEC=/home/kiki/software/schrondiger/mmshare-v5.1/bin/Linux-x86_64
+
+Invoking phase_find_common binary to do initial setup:
+phase_find_common /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phzip -JOB phase_pharm_1_find_common -JOBHOST localhost:1 -sites 4:5 -ex -miss 0.5 -fraction -prefer 5 -redun 0.5 -keep 10 -site 1.0 -vect 1.0 -vol 1.0 -select 1.0 -logm 1.0 -inactive 1.0 -setup
+
+********************************************************************************
+
+Host name: kiki
+SCHRODINGER=/home/kiki/software/schrondiger
+SCHRODINGER_JOBID=kiki-0-6a219c49
+MMSHARE_EXEC=/home/kiki/software/schrondiger/mmshare-v5.1/bin/Linux-x86_64
+
+********************************************************************************
+
+phase_find_common: Thu Jun  4 11:39:55 2026
+
+Project archive = "/home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phzip"
+Options:
+-JOB phase_pharm_1_find_common
+-JOBHOST localhost:1
+-ex
+-fraction
+-inactive 1.0
+-keep 10
+-logm 1.0
+-miss 0.5
+-prefer 5
+-redun 0.5
+-select 1.0
+-setup
+-site 1.0
+-sites 4:5
+-vect 1.0
+-vol 1.0
+
+Doing setup for subjobs
+
+Unzipping /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phzip to directory phase_pharm_1_find_common_setup . . .
+
+Number of actives = 14
+Number of active groups = 14
+Maximum allowed misses = 7
+Number of reference ligands = 14
+Number of CPUs requested = 1
+Writing subjob template lists to phase_pharm_1_find_common_templates.csv
+
+Removing directory phase_pharm_1_find_common_setup
+
+CPU time = 0.03 sec
+Elapsed time = 0.00 sec
+
+phase_find_common successfully completed
+Control returned to phase_find_common driver script
+
+Launching phase_find_common subjobs . . .
+
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  kiki-0-6a219c4c phase_pharm_1_find_common_sub_1 localhost [kiki]
+1 0 0 | finished  kiki-0-6a219c4c phase_pharm_1_find_common_sub_1 localhost [kiki]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+Invoking phase_find_common binary to combine subjobs:
+phase_find_common /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phzip -JOB phase_pharm_1_find_common -JOBHOST localhost:1 -sites 4:5 -ex -miss 0.5 -fraction -prefer 5 -redun 0.5 -keep 10 -site 1.0 -vect 1.0 -vol 1.0 -select 1.0 -logm 1.0 -inactive 1.0 -cleanup
+
+********************************************************************************
+
+Host name: kiki
+SCHRODINGER=/home/kiki/software/schrondiger
+SCHRODINGER_JOBID=kiki-0-6a219c49
+MMSHARE_EXEC=/home/kiki/software/schrondiger/mmshare-v5.1/bin/Linux-x86_64
+
+********************************************************************************
+
+phase_find_common: Thu Jun  4 11:40:40 2026
+
+Project archive = "/home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phzip"
+Options:
+-JOB phase_pharm_1_find_common
+-JOBHOST localhost:1
+-cleanup
+-ex
+-fraction
+-inactive 1.0
+-keep 10
+-logm 1.0
+-miss 0.5
+-prefer 5
+-redun 0.5
+-select 1.0
+-site 1.0
+-sites 4:5
+-vect 1.0
+-vol 1.0
+
+Combining results of completed subjobs . . .
+
+*** Contents of phase_pharm_1_find_common_sub_1.log ***
+
+Driver script for phase_find_common subjob phase_pharm_1_find_common_sub_1
+Current time: Thu Jun  4 11:39:57 2026
+Host name: kiki.localdomain
+Number of CPUs requested = 1
+SCHRODINGER=/home/kiki/software/schrondiger
+SCHRODINGER_JOBID=kiki-0-6a219c4c
+MMSHARE_EXEC=/home/kiki/software/schrondiger/mmshare-v5.1/bin/Linux-x86_64
+
+Invoking phase_find_common binary to find and score common pharmacophores:
+phase_find_common /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phzip -JOB phase_pharm_1_find_common -sites 4:5 -ex -miss 0.5 -fraction -prefer 5 -redun 0.5 -keep 10 -site 1.0 -vect 1.0 -vol 1.0 -select 1.0 -logm 1.0 -inactive 1.0 -subjob phase_pharm_1_find_common_sub_1
+
+********************************************************************************
+
+Host name: kiki
+SCHRODINGER=/home/kiki/software/schrondiger
+SCHRODINGER_JOBID=kiki-0-6a219c4c
+MMSHARE_EXEC=/home/kiki/software/schrondiger/mmshare-v5.1/bin/Linux-x86_64
+
+********************************************************************************
+
+phase_find_common: Thu Jun  4 11:39:58 2026
+
+Project archive = "/home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phzip"
+Options:
+-JOB phase_pharm_1_find_common
+-ex
+-fraction
+-inactive 1.0
+-keep 10
+-logm 1.0
+-miss 0.5
+-prefer 5
+-redun 0.5
+-select 1.0
+-site 1.0
+-sites 4:5
+-subjob phase_pharm_1_find_common_sub_1
+-vect 1.0
+-vol 1.0
+
+Unzipping /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phzip to directory phase_pharm_1_find_common_sub_1_project . . .
+
+********************************************************************************
+
+Aligning actives to 33 conformers of reference ligand mol_1 (1 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+Recovering 4-point pharmacophores that matched 7 active groups . . .
+
+Refining matches and alignments . . .
+20% complete
+
+Surviving common pharmacophore counts for reference ligand mol_1:
+4-point: 1
+5-point: 0
+  Total: 1
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 1
+5-point: 0
+  Total: 1
+
+********************************************************************************
+
+Aligning actives to 27 conformers of reference ligand mol_2 (2 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+Recovering 4-point pharmacophores that matched 7 active groups . . .
+
+Refining matches and alignments . . .
+20% complete
+40% complete
+
+Surviving common pharmacophore counts for reference ligand mol_2:
+4-point: 2
+5-point: 0
+  Total: 2
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 3
+5-point: 0
+  Total: 3
+
+********************************************************************************
+
+Aligning actives to 38 conformers of reference ligand mol_3 (3 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+Recovering 4-point pharmacophores that matched 7 active groups . . .
+
+Refining matches and alignments . . .
+20% complete
+40% complete
+
+Surviving common pharmacophore counts for reference ligand mol_3:
+4-point: 2
+5-point: 0
+  Total: 2
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 5
+5-point: 0
+  Total: 5
+
+********************************************************************************
+
+Aligning actives to 35 conformers of reference ligand mol_4 (4 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+Recovering 4-point pharmacophores that matched 7 active groups . . .
+
+Refining matches and alignments . . .
+20% complete
+
+Surviving common pharmacophore counts for reference ligand mol_4:
+4-point: 1
+5-point: 0
+  Total: 1
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 6
+5-point: 0
+  Total: 6
+
+********************************************************************************
+
+Aligning actives to 50 conformers of reference ligand mol_5 (5 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+Recovering 4-point pharmacophores that matched 7 active groups . . .
+
+Refining matches and alignments . . .
+20% complete
+
+Surviving common pharmacophore counts for reference ligand mol_5:
+4-point: 1
+5-point: 0
+  Total: 1
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 7
+5-point: 0
+  Total: 7
+
+********************************************************************************
+
+Aligning actives to 50 conformers of reference ligand mol_6 (6 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+
+Surviving common pharmacophore counts for reference ligand mol_6:
+4-point: 0
+5-point: 0
+  Total: 0
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 7
+5-point: 0
+  Total: 7
+
+********************************************************************************
+
+Aligning actives to 50 conformers of reference ligand mol_7 (7 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+
+Surviving common pharmacophore counts for reference ligand mol_7:
+4-point: 0
+5-point: 0
+  Total: 0
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 7
+5-point: 0
+  Total: 7
+
+********************************************************************************
+
+Aligning actives to 42 conformers of reference ligand mol_8 (8 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+
+Surviving common pharmacophore counts for reference ligand mol_8:
+4-point: 0
+5-point: 0
+  Total: 0
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 7
+5-point: 0
+  Total: 7
+
+********************************************************************************
+
+Aligning actives to 23 conformers of reference ligand mol_9 (9 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+
+Surviving common pharmacophore counts for reference ligand mol_9:
+4-point: 0
+5-point: 0
+  Total: 0
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 7
+5-point: 0
+  Total: 7
+
+********************************************************************************
+
+Aligning actives to 23 conformers of reference ligand mol_10 (10 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+
+Surviving common pharmacophore counts for reference ligand mol_10:
+4-point: 0
+5-point: 0
+  Total: 0
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 7
+5-point: 0
+  Total: 7
+
+********************************************************************************
+
+Aligning actives to 39 conformers of reference ligand mol_11 (11 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+
+Surviving common pharmacophore counts for reference ligand mol_11:
+4-point: 0
+5-point: 0
+  Total: 0
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 7
+5-point: 0
+  Total: 7
+
+********************************************************************************
+
+Aligning actives to 21 conformers of reference ligand mol_12 (12 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+
+Surviving common pharmacophore counts for reference ligand mol_12:
+4-point: 0
+5-point: 0
+  Total: 0
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 7
+5-point: 0
+  Total: 7
+
+********************************************************************************
+
+Aligning actives to 39 conformers of reference ligand mol_13 (13 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+
+Surviving common pharmacophore counts for reference ligand mol_13:
+4-point: 0
+5-point: 0
+  Total: 0
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 7
+5-point: 0
+  Total: 7
+
+********************************************************************************
+
+Aligning actives to 25 conformers of reference ligand mol_14 (14 of 14) . . .
+10% complete
+20% complete
+30% complete
+40% complete
+50% complete
+60% complete
+70% complete
+80% complete
+90% complete
+100% complete
+
+Searching for pharmacophores that match at least 14 active groups . . .
+Searching for pharmacophores that match at least 13 active groups . . .
+Searching for pharmacophores that match at least 12 active groups . . .
+Searching for pharmacophores that match at least 11 active groups . . .
+Searching for pharmacophores that match at least 10 active groups . . .
+Searching for pharmacophores that match at least 9 active groups . . .
+Searching for pharmacophores that match at least 8 active groups . . .
+Searching for pharmacophores that match at least 7 active groups . . .
+
+Surviving common pharmacophore counts for reference ligand mol_14:
+4-point: 0
+5-point: 0
+  Total: 0
+
+Running totals for all reference ligands assigned to this subjob:
+4-point: 7
+5-point: 0
+  Total: 7
+
+********************************************************************************
+
+All reference ligands assigned to this subjob have been processed.
+
+Total number of active --> reference alignments performed = 226108
+
+Final surviving common pharmacophore counts:
+4-point: 7
+5-point: 0
+  Total: 7
+
+Saving common pharmacophores to directory phase_pharm_1_find_common_sub_1_hypotheses . . .
+Zipping phase_pharm_1_find_common_sub_1_hypotheses to phase_pharm_1_find_common_sub_1_hypotheses.zip . . .
+Removing directory phase_pharm_1_find_common_sub_1_hypotheses
+Removing directory phase_pharm_1_find_common_sub_1_project
+
+CPU time = 40.97 sec
+Elapsed time = 41.00 sec
+
+phase_find_common successfully completed
+
+Driver script for phase_find_common subjob phase_pharm_1_find_common_sub_1 finished
+Current time: Thu Jun  4 11:40:39 2026
+Elapsed time = 0:00:41.69
+phase_find_common results for phase_pharm_1_find_common_sub_1 are complete
+
+*** End of phase_pharm_1_find_common_sub_1.log ***
+
+Unzipping /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phzip to directory phase_pharm_1_find_common_cleanup . . .
+
+Processing phase_pharm_1_find_common_sub_1 results . . .
+Unzipping phase_pharm_1_find_common_sub_1_hypotheses.zip . . .
+Importing pharmacophores from phase_pharm_1_find_common_sub_1_hypotheses/template_0.pharm . . .
+Importing pharmacophores from phase_pharm_1_find_common_sub_1_hypotheses/template_1.pharm . . .
+Importing pharmacophores from phase_pharm_1_find_common_sub_1_hypotheses/template_2.pharm . . .
+Importing pharmacophores from phase_pharm_1_find_common_sub_1_hypotheses/template_3.pharm . . .
+Importing pharmacophores from phase_pharm_1_find_common_sub_1_hypotheses/template_4.pharm . . .
+Removing directory phase_pharm_1_find_common_sub_1_hypotheses
+
+Merging pharmacophores from all subjobs . . .
+
+Final surviving common pharmacophore counts:
+4-point: 6
+5-point: 0
+  Total: 6
+
+Preparing short virtual screens to compute PhaseHypoScore for 6 surviving common pharmacophore hypotheses . . .
+
+Creating phase_pharm_1_find_common_actives/actives.phprj with default conformers . . .
+/home/kiki/software/schrondiger/internal/bin/phase_database
+[running at reduced cpu priority]
+/home/kiki/software/schrondiger/internal/bin/phase_database
+[running at reduced cpu priority]
+
+Unzipping decoys archive /home/kiki/software/schrondiger/internal/data/phase/pharma_decoys.phzip to directory phase_pharm_1_find_common_decoys . . .
+Writing hypotheses to phase_pharm_1_find_common_bedroc_hypotheses . . .
+Zipping hypotheses to "/home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1_find_common_bedroc_hypotheses.zip" . . . 
+
+Running short virtual screens for PhaseHypoScore:
+"/home/kiki/software/schrondiger/phase_screen" "phase_pharm_1_find_common_bedroc_proj.list" "/home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1_find_common_bedroc_hypotheses.zip" phase_pharm_1_find_common_bedroc_screens -d 2.0 -aw 1 -vw 1 -volw 1 -nosort -HOST "localhost:1" -WAIT . . .
+JobId: kiki-0-6a219c88
+[running at reduced cpu priority]
+
+Short virtual screens for PhaseHypoScore completed. Processing hits . . .
+
+Computing BEDROC for PhaseHypoScore . . .
+
+Removing directory phase_pharm_1_find_common_actives
+Removing directory phase_pharm_1_find_common_decoys
+
+Elapsed time to perform active/decoy screens = 146.00 sec
+
+Compiling final results and writing to directory phase_pharm_1_find_common_find_common . . .
+20% complete
+40% complete
+60% complete
+80% complete
+100% complete
+
+Zipping phase_pharm_1_find_common_find_common to phase_pharm_1_find_common_find_common.zip . . .
+Removing directory phase_pharm_1_find_common_find_common
+Removing directory phase_pharm_1_find_common_cleanup
+
+CPU time = 11.56 sec
+Elapsed time = 147.00 sec
+
+phase_find_common successfully completed
+
+Driver script for phase_find_common job phase_pharm_1_find_common finished
+Current time: Thu Jun  4 11:43:07 2026
+Elapsed time = 0:03:12.76
+phase_find_common results for phase_pharm_1_find_common are complete
+[running at reduced cpu priority]

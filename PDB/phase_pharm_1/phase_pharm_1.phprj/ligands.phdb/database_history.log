@@ -1,0 +1,8 @@
+Thu Jun  4 11:39:45 2026
+phase_database /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb import phase_pharm_1_import -NOJOBID -fd phase_pharm_1.def -fmt xyz -i phase_pharm_1-out.maegz -multi -new -stereo -verbose
+
+Thu Jun  4 11:39:50 2026
+phase_database /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb revise phase_pharm_1_sites -NOJOBID -role parent -setup -sites
+
+Thu Jun  4 11:39:52 2026
+phase_database /home/kiki/software/schrodinger/scratch/kiki/phase_pharm_1/phase_pharm_1.phprj/ligands.phdb revise phase_pharm_1_sites -cleanup -role parent

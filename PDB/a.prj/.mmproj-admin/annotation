@@ -1,0 +1,55 @@
+--- This project was created on Thu Jun  4 10:19:27 2026
+
+-----
+Thu Jun  4 10:20:23 2026
+Imported file:
+/mnt/c/Users/cjpav/Documents/codes/biomed/proyecto2-biomed/PDB/ligandos_consenso.sdf
+
+-----
+Thu Jun  4 10:20:23 2026
+Imported file:
+/mnt/c/Users/cjpav/Documents/codes/biomed/proyecto2-biomed/PDB/receptor_4n7e.pdb
+
+-----
+Thu Jun  4 10:28:12 2026
+Starting LigPrep
+Job name: ligprep_1
+Job ID: kiki-0-6a218b7b
+
+-----
+Thu Jun  4 10:29:56 2026
+Starting LigPrep
+Job name: ligprep_2
+Job ID: kiki-0-6a218be3
+
+-----
+Thu Jun  4 10:34:02 2026
+Starting LigPrep
+Job name: ligprep_3
+Job ID: kiki-0-6a218cda
+
+-----
+Thu Jun  4 11:11:04 2026
+Imported file:
+Hypothesis_1.phypo
+
+-----
+Thu Jun  4 11:36:58 2026
+Starting LigPrep
+Job name: ligprep_1
+Job ID: kiki-0-6a219b99
+
+-----
+Thu Jun  4 11:45:36 2026
+Imported file:
+Hypothesis_2.phypo
+
+-----
+Thu Jun  4 11:46:51 2026
+Imported file:
+Hypothesis_3.phypo
+
+-----
+Thu Jun  4 15:29:50 2026
+Imported file:
+Hypothesis_1.phypo
