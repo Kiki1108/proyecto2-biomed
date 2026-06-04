@@ -21,8 +21,8 @@ from collections import defaultdict
 
 # ── Parámetros por defecto del GA ─────────────────────────────────────────────
 GA_DEFAULTS = {
-    "n_pop"         : 60,
-    "n_gen"         : 50,
+    "n_pop"         : 100,
+    "n_gen"         : 100,
     "n_elite"       : 10,
     "p_mut"         : 0.65,
     "p_cross"       : 0.40,

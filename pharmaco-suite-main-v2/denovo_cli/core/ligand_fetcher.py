@@ -24,7 +24,7 @@ ACTIVITY_TYPES = ["IC50", "Ki", "Kd", "EC50", "Inhibition"]
 
 def fetch_ligands(
     source: str,
-    n_max: int = 100,
+    n_max: int = 1000000,
     activity_cutoff: float = 10000,   # nM — filtro de potencia (default 10 µM)
     verbose: bool = True,
 ) -> List[Dict[str, Any]]:
