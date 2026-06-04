@@ -1,0 +1,25 @@
+REMARK  FARMACOFORO CONSENSO FINAL — Proteasa VIH-1 / 2JQ (4N7E)
+REMARK  Pipeline: SBP (PLIP) + LBP (RDKit) + RBP (pH 7.4 corregido)
+REMARK  Radio clustering: 3.5 A   pH referencia: 7.4
+REMARK  Consenso con complementariedad fisica receptor<->ligando:
+REMARK    DONOR-ligando     <-> ACCEPTOR-receptor
+REMARK    ACCEPTOR-ligando  <-> DONOR-receptor
+REMARK    HYDROPHOBIC       <-> HYDROPHOBIC
+REMARK    POS_IONIZABLE     <-> NEG_IONIZABLE
+REMARK  Atom names: A=Acceptor D=Donor H=Hydrophobic P=PosIon N=NegIon
+REMARK  Occupancy: 0.33=un modelo  0.67=dos modelos  1.00=triple consenso
+REMARK  B-factor:  33.3=un modelo  66.7=dos modelos  100.0=triple consenso
+REMARK  PyMOL: spectrum b, blue_red  ->  rojo=triple consenso (mas confiable)
+ATOM      1  D   PH4 A   2     -33.189  37.425  15.772  1.00 100.0           D
+REMARK  [  1] LIG=DONOR          REC_complemento=ACCEPTOR (d=2.78Å)                  modelos=LBP+RBP+SBP
+ATOM      2  A   PH4 A   1     -34.255  40.092  13.384  0.67  66.7           A
+REMARK  [  2] LIG=ACCEPTOR       REC_complemento=—                                   modelos=LBP+SBP
+ATOM      3  H   PH4 A   3     -31.798  40.038  13.524  0.67  66.7           H
+REMARK  [  3] LIG=HYDROPHOBIC    REC_complemento=—                                   modelos=LBP+SBP
+ATOM      4  H   PH4 A   3     -34.887  35.749  17.304  0.67  66.7           H
+REMARK  [  4] LIG=HYDROPHOBIC    REC_complemento=—                                   modelos=LBP+SBP
+ATOM      5  A   PH4 A   1     -33.774  35.419  16.670  0.33  33.3           A
+REMARK  [  5] LIG=ACCEPTOR       REC_complemento=—                                   modelos=LBP
+ATOM      6  D   PH4 A   2     -34.022  41.274  12.412  0.33  33.3           D
+REMARK  [  6] LIG=DONOR          REC_complemento=—                                   modelos=LBP
+END

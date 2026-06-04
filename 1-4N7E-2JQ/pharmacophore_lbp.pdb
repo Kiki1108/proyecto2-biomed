@@ -1,0 +1,16 @@
+REMARK LBP Ligand-Based Pharmacophore (2JQ)
+REMARK A=Acceptor D=Donor H=Hydrophobic P=PosIonizable N=NegIonizable
+ATOM      1 D    PH4 A   1     -33.238  37.480  15.824  1.00  0.00          D
+ATOM      2 D    PH4 A   1     -34.022  41.274  12.412  1.00  0.00          D
+ATOM      3 A    PH4 A   1     -34.107  39.644  15.947  1.00  0.00          A
+ATOM      4 A    PH4 A   1     -33.774  35.419  16.670  1.00  0.00          A
+ATOM      5 A    PH4 A   1     -34.616  39.180  12.951  1.00  0.00          A
+ATOM      6 A    PH4 A   1     -34.022  41.274  12.412  1.00  0.00          A
+ATOM      7 A    PH4 A   1     -34.142  40.174  12.774  1.00  0.00          A
+ATOM      8 H    PH4 A   1     -33.712  40.127  12.958  1.00  0.00          H
+ATOM      9 H    PH4 A   1     -34.908  35.896  17.319  1.00  0.00          H
+ATOM     10 H    PH4 A   1     -31.107  39.845  13.980  1.00  0.00          H
+ATOM     11 H    PH4 A   1     -32.178  39.309  14.708  1.00  0.00          H
+ATOM     12 H    PH4 A   1     -30.027  40.381  13.243  1.00  0.00          H
+ATOM     13 H    PH4 A   1     -32.422  39.985  13.509  1.00  0.00          H
+END
