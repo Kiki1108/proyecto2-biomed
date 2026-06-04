@@ -1,0 +1,23 @@
+REMARK  Consenso Final
+REMARK  Generado por pharmacophore_tool
+REMARK  Formato: A=Acceptor D=Donor H=Hydrophobic P=PosIon N=NegIon
+REMARK  Radio de clustering: 3.5 A
+REMARK  Occupancy: 0.33=un modelo  0.67=dos modelos  1.00=triple consenso
+REMARK  B-factor : 33.3=un modelo  66.7=dos modelos  100.0=triple consenso
+ATOM      1  A   PH4 A   1     -33.486  40.936  13.336  1.00 100.0           A
+REMARK  [  1] ACCEPTOR       RBP_complemento=DONOR (d=2.99Å, ?)                  modelos=LBP+RBP+SBP
+ATOM      2  D   PH4 A   2     -33.439  37.707  15.777  1.00 100.0           D
+REMARK  [  2] DONOR          RBP_complemento=ACCEPTOR (d=3.02Å, ?)               modelos=LBP+RBP+SBP
+ATOM      3  A   PH4 A   1     -32.525  39.880  16.623  0.67  66.7           A
+REMARK  [  3] ACCEPTOR       RBP_complemento=DONOR (d=3.15Å, ?)                  modelos=LBP+RBP
+ATOM      4  D   PH4 A   2     -31.607  42.208  13.639  0.67  66.7           D
+REMARK  [  4] DONOR          RBP_complemento=ACCEPTOR (d=2.57Å, ?)               modelos=LBP+RBP
+ATOM      5  H   PH4 A   3     -31.244  40.170  12.990  0.67  66.7           H
+REMARK  [  5] HYDROPHOBIC    RBP_complemento=—                                   modelos=LBP+SBP
+ATOM      6  H   PH4 A   3     -35.024  35.683  17.521  0.67  66.7           H
+REMARK  [  6] HYDROPHOBIC    RBP_complemento=—                                   modelos=LBP+SBP
+ATOM      7  A   PH4 A   1     -35.587  36.864  16.483  0.33  33.3           A
+REMARK  [  7] ACCEPTOR       RBP_complemento=—                                   modelos=LBP
+ATOM      8  N   PH4 A   5     -32.507  41.498  13.841  0.33  33.3           N
+REMARK  [  8] NEG_IONIZABLE  RBP_complemento=—                                   modelos=LBP
+END

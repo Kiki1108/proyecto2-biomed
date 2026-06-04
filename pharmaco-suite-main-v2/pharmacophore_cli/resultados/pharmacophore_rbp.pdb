@@ -1,0 +1,158 @@
+REMARK  RBP
+REMARK  Generado por pharmacophore_tool
+REMARK  Formato: A=Acceptor D=Donor H=Hydrophobic P=PosIon N=NegIon
+ATOM      1  D   PH4 A   2     -38.581  41.613  15.706  1.00   0.0           D
+REMARK  [  1] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      2  D   PH4 A   2     -34.241  47.708  13.319  1.00   0.0           D
+REMARK  [  2] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      3  D   PH4 A   2     -31.501  42.855  16.582  1.00   0.0           D
+REMARK  [  3] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      4  D   PH4 A   2     -32.725  45.642  14.540  1.00   0.0           D
+REMARK  [  4] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      5  D   PH4 A   2     -29.409  44.413  15.462  1.00   0.0           D
+REMARK  [  5] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      6  D   PH4 A   2     -26.122  42.861  14.966  1.00   0.0           D
+REMARK  [  6] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      7  D   PH4 A   2     -22.921  41.183  15.425  1.00   0.0           D
+REMARK  [  7] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      8  D   PH4 A   2     -23.979  43.333  11.009  1.00   0.0           D
+REMARK  [  8] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      9  D   PH4 A   2     -27.252  44.561  10.300  1.00   0.0           D
+REMARK  [  9] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     10  D   PH4 A   2     -33.075  43.616  12.071  1.00   0.0           D
+REMARK  [ 10] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     11  D   PH4 A   2     -30.743  44.755  10.754  1.00   0.0           D
+REMARK  [ 11] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     12  D   PH4 A   2     -37.725  41.003  11.993  1.00   0.0           D
+REMARK  [ 12] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     13  D   PH4 A   2     -38.715  43.919   7.179  1.00   0.0           D
+REMARK  [ 13] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     14  D   PH4 A   2     -31.892  42.474   5.983  1.00   0.0           D
+REMARK  [ 14] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     15  D   PH4 A   2     -29.041  48.062   3.731  1.00   0.0           D
+REMARK  [ 15] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     16  D   PH4 A   2     -28.928  44.452   6.122  1.00   0.0           D
+REMARK  [ 16] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     17  D   PH4 A   2     -38.245  39.797   5.660  1.00   0.0           D
+REMARK  [ 17] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     18  D   PH4 A   2     -40.395  34.813   6.945  1.00   0.0           D
+REMARK  [ 18] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     19  D   PH4 A   2     -41.255  36.926  11.807  1.00   0.0           D
+REMARK  [ 19] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     20  D   PH4 A   2     -37.722  36.005  11.869  1.00   0.0           D
+REMARK  [ 20] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     21  D   PH4 A   2     -34.759  39.748   6.189  1.00   0.0           D
+REMARK  [ 21] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     22  D   PH4 A   2     -34.171  36.718  11.696  1.00   0.0           D
+REMARK  [ 22] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     23  D   PH4 A   2     -30.531  32.796  15.153  1.00   0.0           D
+REMARK  [ 23] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     24  D   PH4 A   2     -31.300  34.676  12.139  1.00   0.0           D
+REMARK  [ 24] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     25  D   PH4 A   2     -28.020  34.549  13.125  1.00   0.0           D
+REMARK  [ 25] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     26  D   PH4 A   2     -26.449  32.129   7.618  1.00   0.0           D
+REMARK  [ 26] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     27  D   PH4 A   2     -31.654  30.799  17.286  1.00   0.0           D
+REMARK  [ 27] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     28  D   PH4 A   2     -35.642  25.471  13.377  1.00   0.0           D
+REMARK  [ 28] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     29  D   PH4 A   2     -37.829  26.877  19.134  1.00   0.0           D
+REMARK  [ 29] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     30  D   PH4 A   2     -36.898  26.790  16.209  1.00   0.0           D
+REMARK  [ 30] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     31  D   PH4 A   2     -41.228  30.305  14.825  1.00   0.0           D
+REMARK  [ 31] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     32  D   PH4 A   2     -39.611  29.075  16.699  1.00   0.0           D
+REMARK  [ 32] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     33  D   PH4 A   2     -36.382  29.466  20.840  1.00   0.0           D
+REMARK  [ 33] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM     34  A   PH4 A   1     -38.581  41.613  15.706  1.00   0.0           A
+REMARK  [ 34] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     35  A   PH4 A   1     -34.094  45.957  16.262  1.00   0.0           A
+REMARK  [ 35] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     36  A   PH4 A   1     -31.501  42.855  16.582  1.00   0.0           A
+REMARK  [ 36] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     37  A   PH4 A   1     -30.245  45.342  13.589  1.00   0.0           A
+REMARK  [ 37] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     38  A   PH4 A   1     -27.576  42.766  16.682  1.00   0.0           A
+REMARK  [ 38] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     39  A   PH4 A   1     -23.814  42.270  13.646  1.00   0.0           A
+REMARK  [ 39] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     40  A   PH4 A   1     -21.561  38.712  15.504  1.00   0.0           A
+REMARK  [ 40] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     41  A   PH4 A   1     -26.306  44.193  12.307  1.00   0.0           A
+REMARK  [ 41] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     42  A   PH4 A   1     -29.614  45.099   8.834  1.00   0.0           A
+REMARK  [ 42] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     43  A   PH4 A   1     -33.075  43.616  12.071  1.00   0.0           A
+REMARK  [ 43] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     44  A   PH4 A   1     -32.879  46.564  11.112  1.00   0.0           A
+REMARK  [ 44] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     45  A   PH4 A   1     -36.741  42.384   6.125  1.00   0.0           A
+REMARK  [ 45] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     46  A   PH4 A   1     -29.644  43.423   4.253  1.00   0.0           A
+REMARK  [ 46] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     47  A   PH4 A   1     -29.041  48.062   3.731  1.00   0.0           A
+REMARK  [ 47] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     48  A   PH4 A   1     -26.529  44.407   7.318  1.00   0.0           A
+REMARK  [ 48] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     49  A   PH4 A   1     -40.079  41.240   7.153  1.00   0.0           A
+REMARK  [ 49] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     50  A   PH4 A   1     -41.833  36.503   7.317  1.00   0.0           A
+REMARK  [ 50] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     51  A   PH4 A   1     -38.839  37.759  12.642  1.00   0.0           A
+REMARK  [ 51] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     52  A   PH4 A   1     -35.446  35.095  10.775  1.00   0.0           A
+REMARK  [ 52] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     53  A   PH4 A   1     -34.759  39.748   6.189  1.00   0.0           A
+REMARK  [ 53] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     54  A   PH4 A   1     -32.203  36.186  13.484  1.00   0.0           A
+REMARK  [ 54] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     55  A   PH4 A   1     -30.531  32.796  15.153  1.00   0.0           A
+REMARK  [ 55] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     56  A   PH4 A   1     -29.006  33.396  11.470  1.00   0.0           A
+REMARK  [ 56] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     57  A   PH4 A   1     -26.064  32.864  14.476  1.00   0.0           A
+REMARK  [ 57] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     58  A   PH4 A   1     -29.228  31.423   7.012  1.00   0.0           A
+REMARK  [ 58] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     59  A   PH4 A   1     -31.654  30.799  17.286  1.00   0.0           A
+REMARK  [ 59] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     60  A   PH4 A   1     -37.433  27.383  14.143  1.00   0.0           A
+REMARK  [ 60] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     61  A   PH4 A   1     -37.829  26.877  19.134  1.00   0.0           A
+REMARK  [ 61] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     62  A   PH4 A   1     -37.527  29.257  17.581  1.00   0.0           A
+REMARK  [ 62] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     63  A   PH4 A   1     -41.228  30.305  14.825  1.00   0.0           A
+REMARK  [ 63] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     64  A   PH4 A   1     -40.114  31.797  18.928  1.00   0.0           A
+REMARK  [ 64] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     65  A   PH4 A   1     -32.999  28.600  20.216  1.00   0.0           A
+REMARK  [ 65] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM     66  H   PH4 A   3     -28.071  44.303  14.897  1.00   0.0           H
+REMARK  [ 66] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     67  H   PH4 A   3     -25.244  41.848  15.514  1.00   0.0           H
+REMARK  [ 67] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     68  H   PH4 A   3     -21.584  40.995  14.840  1.00   0.0           H
+REMARK  [ 68] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     69  H   PH4 A   3     -25.295  43.098  10.431  1.00   0.0           H
+REMARK  [ 69] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     70  H   PH4 A   3     -28.367  45.335  10.851  1.00   0.0           H
+REMARK  [ 70] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     71  H   PH4 A   3     -30.492  42.607   6.374  1.00   0.0           H
+REMARK  [ 71] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     72  H   PH4 A   3     -39.146  39.095   6.557  1.00   0.0           H
+REMARK  [ 72] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     73  H   PH4 A   3     -36.456  36.506  12.407  1.00   0.0           H
+REMARK  [ 73] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     74  H   PH4 A   3     -26.666  34.252  12.638  1.00   0.0           H
+REMARK  [ 74] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     75  H   PH4 A   3     -27.605  32.875   8.070  1.00   0.0           H
+REMARK  [ 75] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     76  H   PH4 A   3     -35.162  29.599  20.050  1.00   0.0           H
+REMARK  [ 76] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM     77  P   PH4 A   4     -37.725  41.003  11.993  1.00   0.0           P
+REMARK  [ 77] POS_IONIZABLE  POS_IONIZABLE [cluster 1 pts, r=2.0Å]
+END

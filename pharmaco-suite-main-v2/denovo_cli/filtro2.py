@@ -33,7 +33,7 @@ def en_cuantas_tablas_adicionales_esta(smiles):
 presencia_adicional = df_lbp.iloc[:, 1].apply(en_cuantas_tablas_adicionales_esta)
 
 # Filtramos la tabla original manteniendo solo las filas que cumplen la condición
-df_final = df_lbp[presencia_adicional >= 1]
+df_final = df_lbp[presencia_adicional >= 0]
 
 # 6. Guardar el resultado en la carpeta actual
 archivo_salida = "candidates_admet.csv"

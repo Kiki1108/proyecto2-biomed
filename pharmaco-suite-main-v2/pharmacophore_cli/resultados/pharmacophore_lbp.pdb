@@ -1,0 +1,22 @@
+REMARK  LBP
+REMARK  Generado por pharmacophore_tool
+REMARK  Formato: A=Acceptor D=Donor H=Hydrophobic P=PosIon N=NegIon
+ATOM      1  D   PH4 A   2     -33.734  38.046  15.831  1.00   0.0           D
+REMARK  [  1] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      2  D   PH4 A   2     -31.607  42.208  13.639  1.00   0.0           D
+REMARK  [  2] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      3  A   PH4 A   1     -32.525  39.880  16.623  1.00   0.0           A
+REMARK  [  3] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM      4  A   PH4 A   1     -35.587  36.864  16.483  1.00   0.0           A
+REMARK  [  4] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM      5  A   PH4 A   1     -33.557  41.171  14.030  1.00   0.0           A
+REMARK  [  5] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM      6  A   PH4 A   1     -31.607  42.208  13.639  1.00   0.0           A
+REMARK  [  6] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM      7  N   PH4 A   5     -32.507  41.498  13.841  1.00   0.0           N
+REMARK  [  7] NEG_IONIZABLE  NEG_IONIZABLE [cluster 1 pts, r=2.0Å]
+ATOM      8  H   PH4 A   3     -35.809  37.678  17.589  1.00   0.0           H
+REMARK  [  8] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM      9  H   PH4 A   3     -30.952  38.931  13.718  1.00   0.0           H
+REMARK  [  9] HYDROPHOBIC    HYDROPHOBIC [cluster 5 pts, r=2.5Å]
+END

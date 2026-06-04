@@ -1,0 +1,20 @@
+REMARK  SBP
+REMARK  Generado por pharmacophore_tool
+REMARK  Formato: A=Acceptor D=Donor H=Hydrophobic P=PosIon N=NegIon
+ATOM      1  H   PH4 A   3     -31.340  40.577  12.767  1.00   0.0           H
+REMARK  [  1] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM      2  H   PH4 A   3     -33.802  40.142  13.042  1.00   0.0           H
+REMARK  [  2] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM      3  H   PH4 A   3     -28.881  41.029  12.433  1.00   0.0           H
+REMARK  [  3] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM      4  H   PH4 A   3     -35.020  36.212  17.160  1.00   0.0           H
+REMARK  [  4] HYDROPHOBIC    HYDROPHOBIC [cluster 4 pts, r=2.5Å]
+ATOM      5  H   PH4 A   3     -34.242  33.161  17.814  1.00   0.0           H
+REMARK  [  5] HYDROPHOBIC    HYDROPHOBIC [cluster 1 pts, r=2.5Å]
+ATOM      6  D   PH4 A   2     -33.143  37.369  15.722  1.00   0.0           D
+REMARK  [  6] DONOR          DONOR [cluster 1 pts, r=1.5Å]
+ATOM      7  A   PH4 A   1     -34.199  41.206  12.493  1.00   0.0           A
+REMARK  [  7] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+ATOM      8  A   PH4 A   1     -34.583  39.158  13.180  1.00   0.0           A
+REMARK  [  8] ACCEPTOR       ACCEPTOR [cluster 1 pts, r=1.5Å]
+END
