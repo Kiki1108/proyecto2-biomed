@@ -1,0 +1,15 @@
+REMARK  Name = Candidata_037
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1      -1.542   0.288   1.094  0.00  0.00    +0.000 OA
+ATOM      2  C   UNL     1      -0.851   0.247   0.079  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C   UNL     1       0.532  -0.327   0.051  0.00  0.00    +0.000 C 
+ATOM      4 BR   UNL     1       1.657   0.943  -0.886  0.00  0.00    +0.000 Br
+ENDBRANCH   2   3
+TORSDOF 1
